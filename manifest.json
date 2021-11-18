@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"focus",
+    "version":"1.0",
+    "description":"I want you to be focused",
+    "content_scripts":[
+        {
+          "matches":["https://www.youtube.com/*"],
+          "js":["./main.js"],
+          "css":["./index.css"]  
+        }
+    ]
+}
